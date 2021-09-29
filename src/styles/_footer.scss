@@ -1,0 +1,23 @@
+footer {
+  background-color: #8690a0;
+  bottom: 0;
+  position: relative;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-top: 0.5rem;
+}
+
+.icon-images {
+  width: 56px;
+  height: 56px;
+  margin-left: 1.5rem;  
+}
+
+.icon-images:hover {
+  opacity: 0.7;
+}
