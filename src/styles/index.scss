@@ -23,7 +23,7 @@
 
 .header-desc {
   font-weight: 600;
-  font-size: clamp(1.4rem, 2.3vw, 2.3rem);
+  font-size: clamp(1.3rem, 2.3vw, 2.3rem);
   width: 50%;
 }
 
@@ -92,9 +92,7 @@
   font-weight: 400;
   margin-top: 1rem;
   margin-bottom: 3rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  width: 500px;
+  width: 550px;
 }
 
 .header-desc {
@@ -167,8 +165,12 @@
 }
 
 @media (max-width: 500px) {
+  .proj-desc {
+    width: 100%;
+  }
+
   .image-wrapper {
-    width: 400px;
+    width: 350px;
   }
 
   .image-wrapper img {
